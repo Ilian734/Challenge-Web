@@ -9,8 +9,9 @@ import { LayoutComponent } from "./layout/layout.component";
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   imports: [RouterOutlet, LayoutComponent]
+
 })
 export class AppComponent {
-  title = 'Challenge_web';
+  title = 'Challenge Web';
 }
 
