@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px; /* Optionnel : ajoute de l'espace autour du contenu */
+  }
+
+  app-header {
+    width: 100%; /* Prend toute la largeur */
+    max-width: 1200px; /* Maximum 1200px de largeur */
+    margin: 0 auto; /* Centre horizontalement */
+    padding: 20px; /* Ajoute du padding pour l'espacement */
+    background-color: #333; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+  }
+  
+  
+  app-footer {
+    margin-top: auto; /* Assure que le footer reste collé en bas */
+    background-color: #000000; /* Optionnel : couleur de fond du footer */
+    padding: 10px;
+    text-align: center;
+  }
+  

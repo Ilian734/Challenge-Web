@@ -1,0 +1,32 @@
+header {
+    background-color: #001e3c; /* Couleur sombre pour le header */
+    color: white; /* Texte blanc */
+    padding: 15px 30px; /* Espacement interne */
+    display: flex; /* Mise en page flexible */
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; /* Fixer le header en haut */
+    top: 0;
+    z-index: 1000; /* Toujours au-dessus des autres éléments */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Légère ombre */
+  }
+  
+  header nav {
+    display: flex;
+    gap: 20px; /* Espacement entre les liens */
+  }
+  
+  header nav a {
+    color: white; /* Liens en blanc */
+    text-decoration: none; /* Pas de soulignement */
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px; /* Espacement interne pour les liens */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s ease; /* Transition douce */
+  }
+  
+  header nav a:hover {
+    background-color: #495057; /* Fond plus clair au survol */
+  }
+  

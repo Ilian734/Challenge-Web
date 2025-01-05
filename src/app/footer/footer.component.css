@@ -1,0 +1,22 @@
+footer {
+    background-color: #001e3c; /* Couleur de fond claire */
+    color: #ffffff; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement interne */
+    text-align: center; /* Centrer le contenu */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Légère ombre pour donner du relief */
+    position: relative; /* Position normale */
+    bottom: 0;
+    width: 100%; /* Occuper toute la largeur */
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  footer a {
+    text-decoration: none; /* Pas de soulignement */
+    color: #007bff; /* Couleur des liens */
+  }
+  
+  footer a:hover {
+    color: #0056b3; /* Couleur au survol */
+  }
+  
